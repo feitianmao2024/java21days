@@ -1,15 +1,40 @@
 # Java21Days - 21天学会Java 🚀
 
-![GitHub stars](https://img.shields.io/github/stars/feitianmao2024/java21days?style=social)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Java Version](https://img.shields.io/badge/Java-17+-orange.svg)
-![Last Update](https://img.shields.io/badge/last%20update-2025.01-green.svg)
+<div align="center">
+
+[![GitHub stars](https://img.shields.io/github/stars/feitianmao2024/java21days?style=social)](https://github.com/feitianmao2024/java21days/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/feitianmao2024/java21days?style=social)](https://github.com/feitianmao2024/java21days/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/feitianmao2024/java21days)](https://github.com/feitianmao2024/java21days/issues)
+[![License](https://img.shields.io/github/license/feitianmao2024/java21days)](https://github.com/feitianmao2024/java21days/blob/main/LICENSE)
+[![Java Version](https://img.shields.io/badge/Java-17+-orange.svg)](https://adoptium.net/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/feitianmao2024/java21days/pulls)
+[![Last Update](https://img.shields.io/github/last-commit/feitianmao2024/java21days)](https://github.com/feitianmao2024/java21days/commits/main)
+
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/feitianmao2024/java21days/main/docs/logo.png" alt="Java21Days Logo" width="200" />
+</p>
+
+<div align="center">
 
 一个**系统性的 Java 学习项目**，通过精心设计的21天学习计划帮助初学者从零基础到熟练掌握 Java 编程。
+
+📚 *从基础语法到高级特性，循序渐进地掌握 Java 编程技能*
+
+</div>
 
 ## 📖 项目概述
 
 本项目旨在为 Java 初学者提供一个**循序渐进的学习路径**，通过精心设计的实践项目和丰富的代码示例，帮助学习者在21天内建立扎实的 Java 编程基础。
+
+### 🎯 为什么选择 Java21Days？
+
+- **🎯 目标明确** - 21天结构化学习计划，每日都有明确的学习目标
+- **📚 内容全面** - 涵盖从基础语法到高级特性的完整 Java 知识体系
+- **💻 实战导向** - 通过实际项目和练习巩固理论知识
+- **🚀 技术前沿** - 基于 Java 17+ 版本，学习最新特性和最佳实践
+- **🔧 工具完备** - 集成现代化开发工具链，提升学习效率
 
 ### ✨ 项目特色
 - 📅 **科学安排** - 21天渐进式学习计划，每日目标明确
@@ -122,31 +147,39 @@ bazel version
 git --version
 ```
 
-### 快速开始
+### 🚀 快速开始
 
-1. **克隆项目**
+按照以下步骤快速开始您的 Java 学习之旅：
+
+#### 1. 克隆项目
 ```bash
 git clone https://github.com/feitianmao2024/java21days.git
 cd java21days
 ```
 
-2. **配置开发环境**
+#### 2. 配置开发环境
 ```bash
-# 如果使用 IDE，可以导入项目
-# IntelliJ IDEA: File -> Open -> 选择项目目录
-# Eclipse: File -> Import -> Existing Projects into Workspace
+# 检查是否已安装必要工具
+java -version
+git --version
+bazel version  # 或 mvn --version (如果使用 Maven)
 ```
 
-3. **构建项目**
+**IDE 配置:**
+- **IntelliJ IDEA**: `File` → `Open` → 选择项目目录
+- **Eclipse**: `File` → `Import` → `Existing Projects into Workspace`
+- **VS Code**: 安装 Java 扩展包后打开项目目录
+
+#### 3. 构建项目
 ```bash
 # 使用 Bazel 构建
 bazel build //...
 
-# 或者如果有 Maven 配置
+# 或者使用 Maven (如果项目配置了 Maven)
 # mvn compile
 ```
 
-4. **运行测试**
+#### 4. 运行测试
 ```bash
 # 运行所有测试
 bazel test //...
@@ -155,11 +188,10 @@ bazel test //...
 # bazel test //src/test:specific_test
 ```
 
-5. **代码格式化**
-```bash
-# 使用 Google Java Format
-# 在 IDE 中安装相应插件，或使用命令行工具
-```
+#### 5. 开始学习
+- 查看 [学习计划](#学习计划) 部分了解每日学习内容
+- 按照计划逐步完成每日任务
+- 参考 [学习资源](#学习资源) 获取更多学习材料
 
 ### 常见问题解决
 
@@ -179,58 +211,96 @@ bazel clean
 bazel build //... --disk_cache=
 ```
 
-## 学习计划
+## 📚 学习计划
 
-### 第一周：Java 基础
-- **Day 1-3**: Java 语法基础，变量和数据类型
-  - Java 环境搭建和 Hello World
-  - 基本数据类型和变量声明
-  - 运算符和表达式
-  - 字符串操作基础
-- **Day 4-5**: 控制流程（条件和循环）
-  - if-else 条件语句
-  - switch-case 语句
-  - for、while、do-while 循环
-  - 循环控制语句（break、continue）
-- **Day 6-7**: 方法和数组
-  - 方法定义和调用
-  - 参数传递和返回值
-  - 一维和多维数组
-  - 数组常用操作
+我们的 21 天 Java 学习计划分为三个阶段，循序渐进地帮助您掌握 Java 编程。
 
-### 第二周：面向对象编程
-- **Day 8-10**: 类和对象
-  - 类的定义和实例化
-  - 构造方法和重载
-  - 成员变量和方法
-  - 访问修饰符（public、private、protected）
-- **Day 11-12**: 继承和多态
-  - 类的继承（extends）
-  - 方法重写（Override）
-  - super 关键字的使用
-  - 多态性和动态绑定
-- **Day 13-14**: 接口和抽象类
-  - 抽象类和抽象方法
-  - 接口定义和实现
-  - 接口多继承
-  - 函数式接口和 Lambda 表达式
+### 📅 第一周：Java 基础 (Day 1-7)
 
-### 第三周：高级特性和实践
-- **Day 15-17**: 异常处理和文件 I/O
-  - 异常类型和处理机制
-  - try-catch-finally 语句
-  - 自定义异常
-  - 文件读写操作（File、InputStream、OutputStream）
-- **Day 18-19**: 集合框架
-  - List、Set、Map 接口
-  - ArrayList、LinkedList、HashMap 等实现类
-  - 集合的遍历和操作
-  - 泛型的使用
-- **Day 20-21**: 综合项目实践
-  - 设计一个完整的 Java 应用
-  - 应用所学的面向对象概念
-  - 代码优化和重构
-  - 项目文档编写
+<details>
+<summary><strong>Day 1-3: Java 语法基础</strong> - 变量和数据类型</summary>
+
+- Java 环境搭建和 Hello World
+- 基本数据类型和变量声明
+- 运算符和表达式
+- 字符串操作基础
+</details>
+
+<details>
+<summary><strong>Day 4-5: 控制流程</strong> - 条件和循环</summary>
+
+- if-else 条件语句
+- switch-case 语句
+- for、while、do-while 循环
+- 循环控制语句（break、continue）
+</details>
+
+<details>
+<summary><strong>Day 6-7: 方法和数组</strong> - 函数和数据结构</summary>
+
+- 方法定义和调用
+- 参数传递和返回值
+- 一维和多维数组
+- 数组常用操作
+</details>
+
+### 🎯 第二周：面向对象编程 (Day 8-14)
+
+<details>
+<summary><strong>Day 8-10: 类和对象</strong> - OOP 基础</summary>
+
+- 类的定义和实例化
+- 构造方法和重载
+- 成员变量和方法
+- 访问修饰符（public、private、protected）
+</details>
+
+<details>
+<summary><strong>Day 11-12: 继承和多态</strong> - OOP 核心特性</summary>
+
+- 类的继承（extends）
+- 方法重写（Override）
+- super 关键字的使用
+- 多态性和动态绑定
+</details>
+
+<details>
+<summary><strong>Day 13-14: 接口和抽象类</strong> - 设计模式基础</summary>
+
+- 抽象类和抽象方法
+- 接口定义和实现
+- 接口多继承
+- 函数式接口和 Lambda 表达式
+</details>
+
+### 🚀 第三周：高级特性和实践 (Day 15-21)
+
+<details>
+<summary><strong>Day 15-17: 异常处理和文件 I/O</strong> - 错误处理和数据持久化</summary>
+
+- 异常类型和处理机制
+- try-catch-finally 语句
+- 自定义异常
+- 文件读写操作（File、InputStream、OutputStream）
+</details>
+
+<details>
+<summary><strong>Day 18-19: 集合框架</strong> - 数据结构和算法</summary>
+
+- List、Set、Map 接口
+- ArrayList、LinkedList、HashMap 等实现类
+- 集合的遍历和操作
+- 泛型的使用
+</details>
+
+<details>
+<summary><strong>Day 20-21: 综合项目实践</strong> - 实战应用</summary>
+
+- 设计一个完整的 Java 应用
+- 应用所学的面向对象概念
+- 代码优化和重构
+- 项目文档编写
+</details>
 
 ### 学习资源
 
@@ -352,6 +422,34 @@ A: 本项目采用开源许可证，具体使用条款请查看 LICENSE 文件�
 
 ---
 
+## 🤝 参与社区
+
+加入我们的学习社区，与其他 Java 学习者一起交流和成长：
+
+- 📚 **学习小组**: 加入我们的 [Discord 社区](https://discord.gg/java21days) 与其他学习者交流
+- 💬 **讨论区**: 在 [GitHub Discussions](https://github.com/feitianmao2024/java21days/discussions) 提问和分享经验
+- 🎯 **学习挑战**: 参与每月的编程挑战，提升实战技能
+- 🌟 **项目展示**: 在 [Show and Tell](https://github.com/feitianmao2024/java21days/discussions/categories/show-and-tell) 分享您的学习成果
+
+## 📈 学习进度跟踪
+
+我们建议您使用以下方式跟踪学习进度：
+
+1. **创建学习日志**: 记录每天的学习内容和心得体会
+2. **代码提交**: 将每日练习代码提交到您的 Fork 仓库
+3. **进度打卡**: 在社交媒体上使用 #Java21Days 标签分享学习进度
+
+## 🎁 支持项目
+
+如果您觉得本项目对您的学习有帮助，请考虑支持我们：
+
+- ⭐ **Star this repo**: 给项目加星以表示支持
+- 📢 **分享项目**: 将项目推荐给其他需要学习 Java 的朋友
+- 💬 **反馈建议**: 提交 Issue 或 Pull Request 帮助我们改进项目
+- ☕ **赞助支持**: 如果您愿意，可以通过 [GitHub Sponsors](https://github.com/sponsors/feitianmao2024) 支持项目发展
+
+---
+
 <div align="center">
 
 **Happy Coding! 🎉**
@@ -361,5 +459,6 @@ A: 本项目采用开源许可证，具体使用条款请查看 LICENSE 文件�
 **祝大家学习愉快，编程进步！** 
 
 [![Star this repo](https://img.shields.io/github/stars/feitianmao2024/java21days?style=social)](https://github.com/feitianmao2024/java21days)
+[![Follow](https://img.shields.io/github/followers/feitianmao2024?style=social)](https://github.com/feitianmao2024)
 
 </div>
