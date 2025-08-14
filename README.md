@@ -1,29 +1,9 @@
 # Java21Days - 21天学会Java 🚀
 
-<p align="center">
-  <img src="assets/java-logo.png" alt="Java Logo" width="150">
-</p>
-
-<p align="center">
-  <a href="https://github.com/feitianmao2024/java21days/stargazers">
-    <img src="https://img.shields.io/github/stars/feitianmao2024/java21days?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/blob/main/LICENSE">
-    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License">
-  </a>
-  <a href="https://www.oracle.com/java/">
-    <img src="https://img.shields.io/badge/Java-17+-orange.svg" alt="Java Version">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/commits">
-    <img src="https://img.shields.io/badge/last%20update-2025.01-green.svg" alt="Last Update">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/actions">
-    <img src="https://github.com/feitianmao2024/java21days/workflows/CI/badge.svg" alt="CI/CD Status">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/actions">
-    <img src="https://github.com/feitianmao2024/java21days/workflows/CodeQL/badge.svg" alt="CodeQL">
-  </a>
-</p>
+![GitHub stars](https://img.shields.io/github/stars/feitianmao2024/java21days?style=social)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Java Version](https://img.shields.io/badge/Java-17+-orange.svg)
+![Last Update](https://img.shields.io/badge/last%20update-2025.01-green.svg)
 
 一个**系统性的 Java 学习项目**，通过精心设计的21天学习计划帮助初学者从零基础到熟练掌握 Java 编程。
 
@@ -380,16 +360,6 @@ A: 本项目采用开源许可证，具体使用条款请查看 LICENSE 文件�
 
 **祝大家学习愉快，编程进步！** 
 
-<p>
-  <a href="https://github.com/feitianmao2024/java21days/stargazers">
-    <img src="https://img.shields.io/github/stars/feitianmao2024/java21days?style=social" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/network/members">
-    <img src="https://img.shields.io/github/forks/feitianmao2024/java21days?style=social" alt="GitHub forks">
-  </a>
-  <a href="https://github.com/feitianmao2024/java21days/watchers">
-    <img src="https://img.shields.io/github/watchers/feitianmao2024/java21days?style=social" alt="GitHub watchers">
-  </a>
-</p>
+[![Star this repo](https://img.shields.io/github/stars/feitianmao2024/java21days?style=social)](https://github.com/feitianmao2024/java21days)
 
 </div>
